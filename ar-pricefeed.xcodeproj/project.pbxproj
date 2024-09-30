@@ -6,27 +6,8 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		7AA0080F2CAA66AE002B773B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7AA007F52CAA66AD002B773B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7AA007FC2CAA66AD002B773B;
-			remoteInfo = "ar-pricefeed";
-		};
-		7AA008192CAA66AE002B773B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7AA007F52CAA66AD002B773B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7AA007FC2CAA66AD002B773B;
-			remoteInfo = "ar-pricefeed";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		7AA007FD2CAA66AD002B773B /* ar-pricefeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ar-pricefeed.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7AA0080E2CAA66AE002B773B /* ar-pricefeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ar-pricefeedTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7AA008182CAA66AE002B773B /* ar-pricefeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ar-pricefeedUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -35,34 +16,10 @@
 			path = "ar-pricefeed";
 			sourceTree = "<group>";
 		};
-		7AA008112CAA66AE002B773B /* ar-pricefeedTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "ar-pricefeedTests";
-			sourceTree = "<group>";
-		};
-		7AA0081B2CAA66AE002B773B /* ar-pricefeedUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "ar-pricefeedUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7AA007FA2CAA66AD002B773B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7AA0080B2CAA66AE002B773B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7AA008152CAA66AE002B773B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,8 +33,6 @@
 			isa = PBXGroup;
 			children = (
 				7AA007FF2CAA66AD002B773B /* ar-pricefeed */,
-				7AA008112CAA66AE002B773B /* ar-pricefeedTests */,
-				7AA0081B2CAA66AE002B773B /* ar-pricefeedUITests */,
 				7AA007FE2CAA66AD002B773B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,8 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				7AA007FD2CAA66AD002B773B /* ar-pricefeed.app */,
-				7AA0080E2CAA66AE002B773B /* ar-pricefeedTests.xctest */,
-				7AA008182CAA66AE002B773B /* ar-pricefeedUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,52 +70,6 @@
 			productReference = 7AA007FD2CAA66AD002B773B /* ar-pricefeed.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7AA0080D2CAA66AE002B773B /* ar-pricefeedTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7AA008252CAA66AE002B773B /* Build configuration list for PBXNativeTarget "ar-pricefeedTests" */;
-			buildPhases = (
-				7AA0080A2CAA66AE002B773B /* Sources */,
-				7AA0080B2CAA66AE002B773B /* Frameworks */,
-				7AA0080C2CAA66AE002B773B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7AA008102CAA66AE002B773B /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				7AA008112CAA66AE002B773B /* ar-pricefeedTests */,
-			);
-			name = "ar-pricefeedTests";
-			packageProductDependencies = (
-			);
-			productName = "ar-pricefeedTests";
-			productReference = 7AA0080E2CAA66AE002B773B /* ar-pricefeedTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		7AA008172CAA66AE002B773B /* ar-pricefeedUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7AA008282CAA66AE002B773B /* Build configuration list for PBXNativeTarget "ar-pricefeedUITests" */;
-			buildPhases = (
-				7AA008142CAA66AE002B773B /* Sources */,
-				7AA008152CAA66AE002B773B /* Frameworks */,
-				7AA008162CAA66AE002B773B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7AA0081A2CAA66AE002B773B /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				7AA0081B2CAA66AE002B773B /* ar-pricefeedUITests */,
-			);
-			name = "ar-pricefeedUITests";
-			packageProductDependencies = (
-			);
-			productName = "ar-pricefeedUITests";
-			productReference = 7AA008182CAA66AE002B773B /* ar-pricefeedUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -175,14 +82,6 @@
 				TargetAttributes = {
 					7AA007FC2CAA66AD002B773B = {
 						CreatedOnToolsVersion = 16.0;
-					};
-					7AA0080D2CAA66AE002B773B = {
-						CreatedOnToolsVersion = 16.0;
-						TestTargetID = 7AA007FC2CAA66AD002B773B;
-					};
-					7AA008172CAA66AE002B773B = {
-						CreatedOnToolsVersion = 16.0;
-						TestTargetID = 7AA007FC2CAA66AD002B773B;
 					};
 				};
 			};
@@ -201,28 +100,12 @@
 			projectRoot = "";
 			targets = (
 				7AA007FC2CAA66AD002B773B /* ar-pricefeed */,
-				7AA0080D2CAA66AE002B773B /* ar-pricefeedTests */,
-				7AA008172CAA66AE002B773B /* ar-pricefeedUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		7AA007FB2CAA66AD002B773B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7AA0080C2CAA66AE002B773B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7AA008162CAA66AE002B773B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -239,34 +122,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7AA0080A2CAA66AE002B773B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7AA008142CAA66AE002B773B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		7AA008102CAA66AE002B773B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7AA007FC2CAA66AD002B773B /* ar-pricefeed */;
-			targetProxy = 7AA0080F2CAA66AE002B773B /* PBXContainerItemProxy */;
-		};
-		7AA0081A2CAA66AE002B773B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7AA007FC2CAA66AD002B773B /* ar-pricefeed */;
-			targetProxy = 7AA008192CAA66AE002B773B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		7AA008202CAA66AE002B773B /* Debug */ = {
@@ -369,6 +225,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -382,6 +239,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
@@ -393,6 +251,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "ar-pricefeed/ar_pricefeed.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -401,6 +260,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "AR Pricefeed";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -420,6 +281,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "ar-pricefeed/ar_pricefeed.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -428,6 +290,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "AR Pricefeed";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -438,74 +302,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		7AA008262CAA66AE002B773B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = T3AWV9LB5B;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.betteridea.ar-pricefeedTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ar-pricefeed.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ar-pricefeed";
-			};
-			name = Debug;
-		};
-		7AA008272CAA66AE002B773B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = T3AWV9LB5B;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.betteridea.ar-pricefeedTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ar-pricefeed.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ar-pricefeed";
-			};
-			name = Release;
-		};
-		7AA008292CAA66AE002B773B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = T3AWV9LB5B;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.betteridea.ar-pricefeedUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "ar-pricefeed";
-			};
-			name = Debug;
-		};
-		7AA0082A2CAA66AE002B773B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = T3AWV9LB5B;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.betteridea.ar-pricefeedUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "ar-pricefeed";
 			};
 			name = Release;
 		};
@@ -526,24 +322,6 @@
 			buildConfigurations = (
 				7AA008232CAA66AE002B773B /* Debug */,
 				7AA008242CAA66AE002B773B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7AA008252CAA66AE002B773B /* Build configuration list for PBXNativeTarget "ar-pricefeedTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7AA008262CAA66AE002B773B /* Debug */,
-				7AA008272CAA66AE002B773B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7AA008282CAA66AE002B773B /* Build configuration list for PBXNativeTarget "ar-pricefeedUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7AA008292CAA66AE002B773B /* Debug */,
-				7AA0082A2CAA66AE002B773B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

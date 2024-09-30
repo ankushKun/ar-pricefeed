@@ -7,11 +7,13 @@
 
 import SwiftUI
 
-@main
-struct ar_pricefeedApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+@main struct
+JustTheMenuApp: App {
+  @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+  var body: some Scene {
+    Settings {
+      Text("AR Pricefeed")
     }
+  }
 }
+
