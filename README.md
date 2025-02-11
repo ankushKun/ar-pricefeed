@@ -1,6 +1,6 @@
 # AR Pricefeed
 
-Nothing too fancy, just a simple menubar app to keep an eye on the price of $AR
+Nothing too fancy, just a simple menubar app to keep an eye on the price of $AR and $AO
 
 Supports MacOS 11 Big Sur and above
 
