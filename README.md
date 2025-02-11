@@ -2,6 +2,8 @@
 
 Nothing too fancy, just a simple menubar app to keep an eye on the price of $AR and $AO
 
+<img width="1048" alt="image" src="https://github.com/user-attachments/assets/e06563f5-6090-40d6-9e6b-d9f2463ed923" />
+
 Supports MacOS 11 Big Sur and above
 
 ## Installation
