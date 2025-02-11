@@ -2,13 +2,16 @@
 
 Nothing too fancy, just a simple menubar app to keep an eye on the price of $AR
 
-Supports MacOS Big Sur and above
+Supports MacOS 11 Big Sur and above
 
 ## Installation
 
-1. Download the latest [release](https://github.com/ankushKun/ar-pricefeed/releases)
-2. Unzip the downloaded file
-3. Move the `ar-pricefeed.app` to your Applications folder
-4. Right click and open the app
-5. Boom! AR price in the menubar
+- Download the zip from the latest [release](https://github.com/ankushKun/ar-pricefeed/releases)
+- Unzip the zip
+- Move ar-pricefeed.app to Applications folder
+- Open the AR Pricefeed app from Applications
+- BOOM! Live AR price in the menubar!
 
+NOTE: If the app fails to launch, open finder, go into applications and right-click open the application, hopefully it will work lol 🐘
+
+The packaged app has been notarised by Apple and there should not be an issue running it
